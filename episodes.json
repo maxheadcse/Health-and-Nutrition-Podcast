@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "number": "Episode 01",
+    "title": "Pizza Dough Digestibility: The Science Behind Fermentation",
+    "category": "science",
+    "description": "Deep dive into how traditional pizza dough fermentation affects digestibility and nutrient absorption compared to commercial alternatives.",
+    "duration": "32 min",
+    "date": "2024-01-15",
+    "audioFile": "audio/episode-01-pizza-dough-digestibility.mp3",
+    "transcriptFile": "transcripts/episode-01-pizza-dough-digestibility.txt",
+    "transcript": "Welcome to our first episode on pizza dough digestibility. Today we're exploring how traditional fermentation methods transform simple flour and water into something more digestible and nutritious. We'll examine the science behind sourdough starters, long fermentation periods, and how these processes break down gluten and phytic acid. Join us as we compare traditional pizza dough made with 48-hour fermentation against commercial quick-rise doughs, and discover what the research says about gut health, nutrient absorption, and why your great-grandmother's bread might have been better for you after all."
+  },
+  {
+    "id": 2,
+    "number": "Episode 02",
+    "title": "Finnish Food Chain: What America Can Learn from Nordic Nutrition",
+    "category": "foodchain",
+    "description": "Comparing the Finnish food supply chain with American systems, focusing on preservative-free approaches and local sourcing.",
+    "duration": "28 min",
+    "date": "2024-01-08",
+    "audioFile": "audio/episode-02-finnish-food-chain.mp3",
+    "transcriptFile": "transcripts/episode-02-finnish-food-chain.txt",
+    "transcript": "In this episode, we examine the Finnish approach to food production and distribution. Finland consistently ranks among the healthiest nations globally, with lower rates of chronic disease and obesity. We explore how their food supply chain differs from America's - from strict regulations on artificial additives to government support for local organic farming. Learn about Finnish rye bread traditions, berry foraging culture, and why Finnish schools serve fresh, locally-sourced meals while American schools rely on processed foods. Discover what happens when a country prioritizes food quality over convenience and profit."
+  },
+  {
+    "id": 3,
+    "number": "Episode 03",
+    "title": "Meta Analysis: Artificial Ingredients vs. Natural Foods",
+    "category": "meta",
+    "description": "Comprehensive research analysis of artificial ingredients in the American food supply and their health impacts compared to natural alternatives.",
+    "duration": "35 min",
+    "date": "2024-01-01",
+    "audioFile": "audio/episode-03-artificial-ingredients-meta-analysis.mp3",
+    "transcriptFile": "transcripts/episode-03-artificial-ingredients-meta-analysis.txt",
+    "transcript": "Today we're presenting a meta-analysis of over 100 studies on artificial ingredients commonly found in American processed foods. We'll examine the research on artificial sweeteners, preservatives, colorings, and flavor enhancers. What does the scientific consensus say about their long-term health effects? How do they compare to natural alternatives? We'll break down the findings on everything from high-fructose corn syrup to artificial food dyes that are banned in Europe but still widely used in the US. This comprehensive analysis will help you understand the real science behind the artificial ingredients in your pantry."
+  }
+]

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Science Podcast - Health & Nutrition Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-microphone-alt"></i>
+                    <h1>Food Science Podcast</h1>
+                </div>
+                <p class="tagline">Science & Food Hacks vs. The American Food Supply Chain</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <h2>Welcome to Your Health & Nutrition Journey</h2>
+                <p>Deep dive into 30-minute explorations of food science, digestibility, and global food chain differences. Powered by research and real-world food hacking.</p>
+            </section>
+
+            <section class="controls">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">All Episodes</button>
+                    <button class="filter-btn" data-category="science">Science Deep Dives</button>
+                    <button class="filter-btn" data-category="foodchain">Food Chain Analysis</button>
+                    <button class="filter-btn" data-category="meta">Meta Analysis</button>
+                </div>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search episodes...">
+                    <i class="fas fa-search"></i>
+                </div>
+            </section>
+
+            <section class="episodes-container">
+                <div id="episodesList" class="episodes-grid">
+                    <!-- Episodes will be dynamically loaded here -->
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Loading episodes from Google Drive...</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="upload-info">
+                <div class="info-card">
+                    <h3><i class="fas fa-github"></i> How to Add New Episodes</h3>
+                    <ol>
+                        <li>Record your podcast (30 minutes recommended)</li>
+                        <li>Generate transcript using Notebook LM</li>
+                        <li>Upload audio file to <code>audio/</code> folder</li>
+                        <li>Upload transcript to <code>transcripts/</code> folder</li>
+                        <li>Edit <code>episodes.json</code> to add new episode details</li>
+                        <li>Commit changes to GitHub - episodes update automatically!</li>
+                    </ol>
+                    <div class="file-format">
+                        <strong>Supported Categories:</strong>
+                        <span class="category-tag science">science</span>
+                        <span class="category-tag foodchain">foodchain</span>
+                        <span class="category-tag meta">meta</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Food Science Podcast. Powered by AI research and real food science.</p>
+        </div>
+    </footer>
+
+    <!-- Episode Modal -->
+    <div id="episodeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <h2 id="modalTitle"></h2>
+                <div class="modal-meta">
+                    <span id="modalCategory" class="category-tag"></span>
+                    <span id="modalDate"></span>
+                </div>
+                <div class="audio-player">
+                    <audio id="modalAudio" controls></audio>
+                    <a id="modalDownload" class="download-btn" download>
+                        <i class="fas fa-download"></i> Download Episode
+                    </a>
+                </div>
+                <div class="transcript-section">
+                    <h3>Transcript</h3>
+                    <div id="modalTranscript" class="transcript-content"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
